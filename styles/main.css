@@ -1,0 +1,41 @@
+.container,
+#obs {
+  padding-left: 15rem;
+  padding-top: 10rem;
+}
+img {
+  padding-left: 14rem;
+  margin-bottom: 5rem;
+  width: 12rem;
+}
+
+.results {
+  padding-left: 30rem;
+}
+
+#turnOn,
+#turnOff {
+  border-radius: 10px;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  background-color: rgba(0, 212, 255, 1);
+  font-family: "Roboto Slab";
+}
+
+#info,
+#obs {
+  font-family: "Roboto Slab";
+  font-size: 2rem;
+}
+
+#turnOn:hover {
+  background-color: green;
+  color: aliceblue;
+  cursor: pointer;
+}
+#turnOff:hover {
+  background-color: rgb(201, 72, 12);
+  color: aliceblue;
+  cursor: pointer;
+}
